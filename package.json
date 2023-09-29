@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && rm -r node_modules && rm -f yarn.lock",
+    "build": "tsc && rm -r node_modules && rm yarn.lock && rm -f yarn.lock",
     "jest": "if [ -d 'dist' ]; then rm -r dist; fi && jest --coverage"
   },
   "author": "matheus pires",
