@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1695955476281" clover="3.2.0">
+  <project timestamp="1695955476281" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="71" coveredconditionals="71" methods="7" coveredmethods="7" elements="112" coveredelements="112" complexity="0" loc="34" ncloc="34" packages="8" files="9" classes="9"/>
+    <package name="@types">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="fonts.ts" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/@types/fonts.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="sizes.ts" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/@types/sizes.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.Button">
+      <metrics statements="3" coveredstatements="3" conditionals="18" coveredconditionals="18" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/components/Button/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="18" coveredconditionals="18" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.CardQuickAccess">
+      <metrics statements="3" coveredstatements="3" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/components/CardQuickAccess/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Typograph">
+      <metrics statements="3" coveredstatements="3" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/components/Typograph/index.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="11" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="resources.utils.getButtonSize">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="getButtonSize.ts" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/resources/utils/getButtonSize/getButtonSize.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="6" type="cond" truecount="4" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="resources.utils.getFontFamily">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="getFontFamily.ts" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/resources/utils/getFontFamily/getFontFamily.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="13" type="cond" truecount="4" falsecount="0"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="resources.utils.getFontSIze">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="getFontSize.ts" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/resources/utils/getFontSIze/getFontSize.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="resources.utils.getShadow">
+      <metrics statements="7" coveredstatements="7" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+      <file name="getShadow.ts" path="/Users/matheussousa/Desktop/core-components/react-native-custom-components/lib/resources/utils/getShadow/getShadow.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="8" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
