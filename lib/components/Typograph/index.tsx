@@ -57,7 +57,7 @@ export const Typograph: React.FC<ITypographProps> = ({
     },
   });
   return (
-    <Text style={styles.text} {...rest}>
+    <Text style={styles.text} {...rest} testID="typograph">
       {children}
     </Text>
   );

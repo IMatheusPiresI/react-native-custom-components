@@ -43,4 +43,12 @@ describe('Test CardQuickAccess', () => {
 
     expect(cardTitle.props.style.backgroundColor).toBe('#B0AFAF');
   });
+
+  it('should be render default bgColor card', () => {
+    render(<CardQuickAccess title="My component" icon={<></>} />);
+
+    const cardTitle = screen.getByTestId('CardQuickAccess');
+
+    expect(cardTitle.props.style.backgroundColor).toBe('#000fff');
+  });
 });

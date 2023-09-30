@@ -5,10 +5,10 @@ import { ISizesOptions, ITextSizes } from '../../@types/sizes';
 
 type IProps = {
   title: string;
-  bgColor: string;
+  bgColor?: string;
   width?: number | `${number}%`;
   height?: ISizesOptions | number | `${number}%` | 'auto';
-  titleColor: string;
+  titleColor?: string;
   disabledColor?: string;
   fontSize?: ITextSizes | number;
   radius?: number;

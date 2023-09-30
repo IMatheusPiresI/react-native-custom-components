@@ -53,4 +53,20 @@ describe('Buttom Component Tests UI', () => {
 
     expect(button.props.style.backgroundColor).toBe('#B0AFAF');
   });
+
+  it('should be render default bgColor buttom', () => {
+    render(<Button font="bold" title="Entrar" titleColor="#fff" height={40} />);
+
+    const cardTitle = screen.getByTestId('button');
+
+    expect(cardTitle.props.style.backgroundColor).toBe('#000fff');
+  });
+
+  it('should be render default text color', () => {
+    render(<Button font="bold" title="Entrar" height={40} />);
+
+    const cardTitle = screen.getByTestId('typograph');
+
+    expect(cardTitle.props.style.color).toBe('#ffffff');
+  });
 });
